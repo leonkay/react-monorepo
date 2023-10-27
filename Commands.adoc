@@ -1,0 +1,10 @@
+[source, shell]
+---
+# Create Nx Workspace
+$ npx create-nx-workspace@latest react-monorepo --preset=react-monorepo
+
+# Add Tailwind to 'react-store'
+$ nx g @nx/react:setup-tailwind --project=react-store
+---
+
+
